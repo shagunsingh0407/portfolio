@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Shagun Singh - Business Professional, Published Researcher, and Growth Strategist. Explore my education, work experience, projects, and publications.">
+    <title>Shagun Singh - Portfolio</title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50%' y='50%' style='text-anchor:middle;dominant-baseline:middle;font-size:75px;font-family:cursive,sans-serif;font-weight:bold;fill:%23A97458;'%3ESS%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        :root {
+            --bg-light: #FAF6F2;
+            --bg-sidebar: #E6DCD4;
+            --sidebar-hover: #D7C7BB;
+            --text-dark: #1A1A1A;
+            --text-medium: #4B3C36;
+            --text-accent: #A97458;
+            --text-accent-hover: #8F614C;
+            --hover-bg: #E6DCD4;
+            --hover-bg-alt: #F0E8E2;
+        }
+
+        .bg-light {
+            background-color: var(--bg-light);
+        }
+
+        .bg-sidebar {
+            background-color: var(--bg-sidebar);
+        }
+
+        .text-dark {
+            color: var(--text-dark);
+        }
+
+        .text-medium {
+            color: var(--text-medium);
+        }
+
+        .text-accent {
+            color: var(--text-accent);
+        }
+
+        .border-base {
+            border-color: var(--bg-sidebar);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-light text-dark min-h-screen">
+
+    <aside
+        class="fixed top-0 left-0 h-full w-16 bg-sidebar flex flex-col items-center py-8 space-y-6 z-50">
+        <a href="#section1" aria-label="Go to Introduction"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition active-link bg-accent text-white">1</a>
+        <a href="#section2" aria-label="Go to About Me"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">2</a>
+        <a href="#section3" aria-label="Go to Education"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">3</a>
+        <a href="#section4" aria-label="Go to Work Experience"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">4</a>
+        <a href="#section5" aria-label="Go to Projects"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">5</a>
+        <a href="#section6" aria-label="Go to Certifications"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">6</a>
+        <a href="#section7" aria-label="Go to Professional Documents"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">7</a>
+        <a href="#section8" aria-label="Go to Publications"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">8</a>
+        <a href="#section9" aria-label="Go to Contact"
+            class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition bg-sidebar-hover text-medium hover:bg-accent hover:text-white">9</a>
+    </aside>
+
+    <main class="ml-16 w-full">
+
+        <section id="section1"
+            class="min-h-screen px-6 md:px-12 py-16 flex items-center bg-light">
+            <div>
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">Shagun Singh</h1>
+                <p class="mt-4 text-lg md:text-xl text-medium max-w-2xl">
+                    Business Professional | Published Researcher | Growth Strategist
+                </p>
+                <a href="https://drive.google.com/file/d/1ymYex0lMgp80KNiMk8P_Gn5gbDosB7i4/view?usp=sharing"
+                    target="_blank" rel="noreferrer"
+                    class="mt-8 inline-block bg-accent text-white font-medium py-3 px-6 rounded-lg shadow-xl transition-all duration-300 hover:bg-[var(--text-accent-hover)] hover:scale-105">
+                    View My CV
+                </a>
+            </div>
+        </section>
+
+        <section id="section2"
+            class="min-h-screen px-6 md:px-12 py-16 bg-white border-t border-base flex flex-col md:flex-row items-center justify-center gap-12">
+            <img src="https://drive.google.com/uc?id=15X9Fd82PVQqF8DxaUlq7fvzDpykgps7T"
+                alt="Shagun Singh's profile photo"
+                class="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white">
+            <div class="md:text-left text-center">
+                <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">About Me</h2>
+                <p class="text-medium max-w-3xl leading-relaxed">
+                    Dynamic and detail-oriented professional with proven experience in business development, e-commerce optimization, and academic research. Skilled at identifying growth opportunities, designing strategies, and delivering measurable results. Passionate about leveraging data-driven insights and innovative problem-solving to create impact in both corporate and academic domains.
+                </p>
+            </div>
+        </section>
+
+        <section id="section3"
+            class="min-h-screen px-6 md:px-12 py-16 bg-light border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Education</h2>
+            <ul class="space-y-4 text-medium">
+                <li class="p-4 rounded-xl transition hover:bg-[var(--hover-bg)] hover:shadow-lg hover:scale-[1.02] flex justify-between items-center">
+                    <div>
+                        <span class="font-medium">B.Com (Finance & Accounting)</span> — Hansraj College (Admitted 2025, Expected Graduation 2028)
+                    </div>
+                    <a href="#" target="_blank" rel="noreferrer" class="text-accent hover:underline text-sm font-medium">View Marksheet →</a>
+                </li>
+                <li class="p-4 rounded-xl transition hover:bg-[var(--hover-bg)] hover:shadow-lg hover:scale-[1.02] flex justify-between items-center">
+                    <div>
+                        <span class="font-medium">Class 12th (Commerce, without Math)</span> — CBSE, 2023 | <span class="text-accent">Score: 82.8%</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1fdBFRReHIZzMk4-64-w9tO2RC5ACw-jc/view?usp=sharing" target="_blank" rel="noreferrer" class="text-accent hover:underline text-sm font-medium">View Marksheet →</a>
+                </li>
+                <li class="p-4 rounded-xl transition hover:bg-[var(--hover-bg)] hover:shadow-lg hover:scale-[1.02] flex justify-between items-center">
+                    <div>
+                        <span class="font-medium">Class 10th</span> — CBSE, 2021 | <span class="text-accent">Score: 72.2%</span>
+                    </div>
+                    <a href="#" target="_blank" rel="noreferrer" class="text-accent hover:underline text-sm font-medium">View Marksheet →</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="section4" class="min-h-screen px-6 md:px-12 py-16 bg-white border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Work Experience</h2>
+            <ul class="space-y-6 text-medium">
+                <li class="rounded-xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <span class="font-semibold text-dark">Business Development Executive</span> — GlobEDwise Pvt. Ltd. (2025–Present)
+                    <ul class="list-disc ml-6 text-sm space-y-1 mt-2">
+                        <li>Advised 50+ students on financing and admissions, improving client conversion rates.</li>
+                        <li>Contributed to finance department processes, enhancing efficiency by 15%.</li>
+                    </ul>
+                </li>
+                <li class="rounded-xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <span class="font-semibold text-dark">E-commerce Executive</span> — Shree Shyam Brand Collection (2023–2024)
+                    <ul class="list-disc ml-6 text-sm space-y-1 mt-2">
+                        <li>Optimized 500+ product listings, boosting visibility and sales.</li>
+                        <li>Coordinated with operations to reduce order errors by 20%.</li>
+                    </ul>
+                </li>
+                <li class="rounded-xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <span class="font-semibold text-dark">Business Development Associate</span> — Restrofresh (2022–2023)
+                    <ul class="list-disc ml-6 text-sm space-y-1 mt-2">
+                        <li>Drove new client acquisition, generating measurable revenue growth.</li>
+                        <li>Supported team in establishing brand presence in new markets.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="section5" class="min-h-screen px-6 md:px-12 py-16 bg-light border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-8">Projects</h2>
+            <div class="mb-12 rounded-xl p-6 transition hover:bg-[#E6DCD4] hover:shadow-lg hover:scale-[1.02]">
+                <h3 class="text-2xl font-bold text-dark tracking-tight mb-4">Mock E-commerce Website: Stay Styled</h3>
+                <p class="text-medium mb-6 max-w-3xl leading-relaxed">
+                    A responsive storefront prototype built with HTML and Tailwind, featuring collection pages, search/filter, cart and wishlist placeholders.
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                    <img data-src="https://drive.google.com/uc?id=1dWFypZUiV4pglUdlrHNo9QqhpKKiolph" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 1">
+                    <img data-src="https://drive.google.com/uc?id=1mQt-jQdITOVG6nUE_ymGI6SmnRiHFBP1" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 2">
+                    <img data-src="https://drive.google.com/uc?id=1FYBlx6jQsgRexstCt-7KMJBNM49EmMn3" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 3">
+                    <img data-src="https://drive.google.com/uc?id=14dsD4ftwK-d2eyqDjmq-IlsPo7JOSaEz" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 4">
+                    <img data-src="https://drive.google.com/uc?id=18Ob5Da6cdrNMLp3tWEs3gsp10pwjVjnk" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 5">
+                    <img data-src="https://drive.google.com/uc?id=186uMyjDnDEsBM4FjuiP2j4RViplMgact" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 6">
+                    <img data-src="https://drive.google.com/uc?id=1-kb6aELVz_zAJUcq1RHbxkzmcb2k54k1" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 7">
+                    <img data-src="https://drive.google.com/uc?id=1t_9DJ0lh8qvaq1QnuUkmLOcTcpzF0VHP" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 8">
+                    <img data-src="https://drive.google.com/uc?id=1OCfHtOwgKyaji3nRjSSquy96jHzNC0ra" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 9">
+                    <img data-src="https://drive.google.com/uc?id=1JW01tpxUoEaVpohfByB9vZORjOywnpYm" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 10">
+                    <img data-src="https://drive.google.com/uc?id=1TYCvOmpz5DlFYbd5jKuHPCxacinWCi_N" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 11">
+                    <img data-src="https://drive.google.com/uc?id=1ZTexlWqeRERHCL_AVADv9Z_C3ytQ0Ezi" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 12">
+                    <img data-src="https://drive.google.com/uc?id=1NiZpNN48sHAY8nQL84w7mwNhTdQtqd4o" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Stay Styled Screenshot 13">
+                </div>
+                <a href="https://example.com/stay-styled-mock-site" target="_blank" rel="noreferrer" class="inline-block text-accent hover:underline">
+                    View Live Site →
+                </a>
+            </div>
+
+            <div class="mb-12 rounded-xl p-6 transition hover:bg-[#E6DCD4] hover:shadow-lg hover:scale-[1.02]">
+                <h3 class="text-2xl font-bold text-dark tracking-tight mb-4">Data Visualization Project</h3>
+                <p class="text-medium mb-6 max-w-3xl leading-relaxed">
+                    A project showcasing the use of data visualization tools to present complex data insights in an accessible format.
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Data+Viz+1" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Data Visualization Screenshot 1">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Data+Viz+2" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Data Visualization Screenshot 2">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Data+Viz+3" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Data Visualization Screenshot 3">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Data+Viz+4" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Data Visualization Screenshot 4">
+                </div>
+            </div>
+
+            <div class="rounded-xl p-6 transition hover:bg-[#E6DCD4] hover:shadow-lg hover:scale-[1.02]">
+                <h3 class="text-2xl font-bold text-dark tracking-tight mb-4">Creative Works Showcase</h3>
+                <p class="text-medium mb-6 max-w-3xl leading-relaxed">
+                    A collection of creative projects demonstrating design skills and outside-the-box thinking.
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Creative+1" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Creative Works Screenshot 1">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Creative+2" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Creative Works Screenshot 2">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Creative+3" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Creative Works Screenshot 3">
+                    <img data-src="https://placehold.co/600x400/A97458/ffffff?text=Creative+4" class="screenshot-thumbnail w-full h-auto cursor-pointer rounded-lg shadow-md hover:scale-105 transition-transform duration-200" alt="Creative Works Screenshot 4">
+                </div>
+            </div>
+        </section>
+
+        <section id="section6" class="min-h-screen px-6 md:px-12 py-16 bg-white border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Certifications & Participation</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="https://drive.google.com/file/d/1nuT0jYZ4X3OtxY4mG2xSdsl0hNVPR1WN/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">HP Life - Business Communication</h3>
+                    <p class="text-sm text-medium mt-1">HP Life</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1Tbnu0J1bJjLTTaWtjO8eK9rJUXFRClTU/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">HP Life - Circular Economy</h3>
+                    <p class="text-sm text-medium mt-1">HP Life</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/16Y8m_8Jbg5JJLmG0B4bAzxfTk7wI9Dwq/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">HP Life - Inventory Management</h3>
+                    <p class="text-sm text-medium mt-1">HP Life</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1ea-AyDfEx6Kn1m_l1XNDE0VbqaxJoUxJ/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">HP Life - IT for Business Success</h3>
+                    <p class="text-sm text-medium mt-1">HP Life</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1yzPrtr_F-X8wqQqy5riuhrW9cmU1ZBXe/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Management Consulting Workshop</h3>
+                    <p class="text-sm text-medium mt-1">Jobaaj Learnings</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1jAWLj9SjUzpPFtGLegDO-DQcZdHALbZq/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Swachh Bharat Harit Bharat Pledge</h3>
+                    <p class="text-sm text-medium mt-1">Govt. of India</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1giv-WXsiBqbxgNUl40WHNFbbwQxLotzb/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Viksit Bharat 2025 Quiz</h3>
+                    <p class="text-sm text-medium mt-1">Govt. of India</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1NuYHjWt947YyEgXNqr6jWyFxP8qdpCYt/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Digital India Quiz</h3>
+                    <p class="text-sm text-medium mt-1">Govt. of India</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Certificate →</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="section7" class="min-h-screen px-6 md:px-12 py-16 bg-light border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Professional Documents</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="https://drive.google.com/file/d/1fzp0JitsjFmdFSj6RvxSZAgAqvFeyxPC/view?usp=sharing" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Offer Letter - GlobEDwise Pvt Ltd</h3>
+                    <p class="text-sm text-medium mt-1">Business Development Executive, Jan 2025</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Document →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1RIQw20h56GCsUrjf_p9B43V-X-rpQsUN/view?usp=sharing" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Experience Letter - Shree Shyam Brand Collection</h3>
+                    <p class="text-sm text-medium mt-1">E-commerce Executive, 2023–2024</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Document →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1_GrKxL7QxJjsOta6IoJNVFN677ptQeYU/view?usp=drive_link" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Offer Letter - Restrofresh</h3>
+                    <p class="text-sm text-medium mt-1">Business Development Associate, 2022</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Document →</span>
+                </a>
+                <a href="https://drive.google.com/file/d/156TxeadcBHkI_USmI7Zt9le98RHuzrJ1/view?usp=sharing" target="_blank" rel="noreferrer" class="rounded-2xl border border-base bg-white p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                    <h3 class="font-semibold text-dark">Business Card - Shree Shyam Brand Collection</h3>
+                    <p class="text-sm text-medium mt-1">E-commerce Executive Contact</p>
+                    <span class="text-accent text-sm font-medium mt-3 inline-block">View Document →</span>
+                </a>
+                <div class="w-full h-56 rounded-xl border-2 border-dashed border-base flex items-center justify-center text-accent bg-light hover:bg-[#F0E8E2] transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
+                    Upload Document Preview Here
+                </div>
+            </div>
+        </section>
+
+        <section id="section8" class="min-h-screen px-6 md:px-12 py-16 bg-white border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Publications & Writings</h2>
+            <div class="space-y-12">
+                <div class="space-y-6">
+                    <h3 class="font-semibold text-dark text-xl">Research Papers</h3>
+                    <div class="rounded-xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                        <h4 class="font-semibold text-dark text-lg">Financial Literacy in Indian Teens (2025, Ongoing)</h4>
+                        <ul class="list-disc pl-5 text-medium text-sm space-y-1 mt-2">
+                            <li>Survey-based methodology.</li>
+                            <li>Explores money habits, UPI usage, budgeting, saving among youth.</li>
+                        </ul>
+                        <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                            <a href="#" target="_blank" class="hover:underline">View research paper</a>
+                            <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                        </div>
+                    </div>
+                    <div class="rounded-xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                        <h4 class="font-semibold text-dark text-lg">Sustainable Fashion and Consumer Choices (2025, Ongoing)</h4>
+                        <ul class="list-disc pl-5 text-medium text-sm space-y-1 mt-2">
+                            <li>Study of consumer awareness, sustainability preferences, and fashion industry practices.</li>
+                        </ul>
+                        <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                            <a href="#" target="_blank" class="hover:underline">View research paper</a>
+                            <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="font-semibold text-dark text-xl">Blogs / Articles (Planned)</h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">What makes you different from others?</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">Why is financial literacy necessary?</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">Is it true that degrees hold no power anymore?</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">Follow these habits to be financially independent</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">What brands show vs what they actually are</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                        <div class="rounded-2xl border border-base bg-light p-6 shadow-sm transition block hover:shadow-lg hover:scale-[1.02]">
+                            <h4 class="font-semibold text-dark">Things you need to know at 18, to be better than others at 25</h4>
+                            <div class="mt-4 flex space-x-4 text-accent text-sm font-medium">
+                                <a href="#" target="_blank" class="hover:underline">View article</a>
+                                <a href="#" target="_blank" class="hover:underline">View screenshots</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section9" class="min-h-screen px-6 md:px-12 py-16 bg-light border-t border-base">
+            <h2 class="text-4xl font-bold text-dark tracking-tight mb-6">Contact</h2>
+            <div class="space-y-4">
+                <p>
+                    Email:
+                    <a href="mailto:singhshagun0407@gmail.com" class="text-accent hover:underline">
+                        singhshagun0407@gmail.com
+                    </a>
+                </p>
+                <p>
+                    LinkedIn:
+                    <a href="http://www.linkedin.com/in/shagun-singh-182350358" target="_blank" rel="noreferrer" class="text-accent hover:underline">
+                        linkedin.com/in/shagun-singh-182350358
+                    </a>
+                </p>
+                <p>
+                    Phone: <span class="text-medium">+91 8595435972</span>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="screenshot-modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-black/80">
+        <div class="relative w-full max-w-5xl max-h-[90vh]">
+            <button id="close-modal" class="absolute top-4 right-4 text-white text-3xl font-bold z-50">×</button>
+            <div id="screenshot-container" class="relative">
+                <img id="modal-image" src="" alt="Project Screenshot" class="w-full h-auto max-h-[80vh] object-contain">
+            </div>
+            <div class="absolute inset-y-0 left-0 flex items-center">
+                <button id="prev-btn" class="bg-black/50 hover:bg-black/75 text-white p-4 rounded-full transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center">
+                <button id="next-btn" class="bg-black/50 hover:bg-black/75 text-white p-4 rounded-full transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+            <div id="screenshot-counter" class="absolute bottom-4 left-1/2 -translate-x-1/2 text-white bg-black/50 px-3 py-1 rounded-full text-sm"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebarLinks = document.querySelectorAll('aside a');
+            const sections = document.querySelectorAll('main section');
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -20% 0px',
+                threshold: 0.3
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        sidebarLinks.forEach(link => {
+                            link.classList.remove('active-link', 'bg-accent', 'text-white');
+                            link.classList.add('bg-sidebar-hover', 'text-medium');
+                        });
+
+                        const activeLink = document.querySelector(`aside a[href="#${entry.target.id}"]`);
+                        if (activeLink) {
+                            activeLink.classList.remove('bg-sidebar-hover', 'text-medium');
+                            activeLink.classList.add('active-link', 'bg-accent', 'text-white');
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+
+            // New Screenshot Viewer Script
+            const modal = document.getElementById('screenshot-modal');
+            const modalImage = document.getElementById('modal-image');
+            const closeModalBtn = document.getElementById('close-modal');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const counter = document.getElementById('screenshot-counter');
+            const thumbnails = document.querySelectorAll('.screenshot-thumbnail');
+            let currentImageIndex = 0;
+            let currentImageSet = [];
+
+            const openModal = (imageSrc, imageSet) => {
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                currentImageSet = imageSet;
+                currentImageIndex = currentImageSet.indexOf(imageSrc);
+                updateModalImage();
+            };
+
+            const closeModal = () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            };
+
+            const updateModalImage = () => {
+                if (currentImageSet.length === 0) return;
+                modalImage.src = currentImageSet[currentImageIndex];
+                counter.textContent = `${currentImageIndex + 1}/${currentImageSet.length}`;
+            };
+
+            const navigate = (direction) => {
+                currentImageIndex += direction;
+                if (currentImageIndex < 0) {
+                    currentImageIndex = currentImageSet.length - 1;
+                } else if (currentImageIndex >= currentImageSet.length) {
+                    currentImageIndex = 0;
+                }
+                updateModalImage();
+            };
+
+            // Event listeners for thumbnails
+            thumbnails.forEach(thumbnail => {
+                thumbnail.addEventListener('click', (e) => {
+                    // Find all sibling img elements that are part of the current project's screenshots
+                    const parentDiv = e.target.closest('.rounded-xl.p-6');
+                    const imagesInSet = parentDiv ? Array.from(parentDiv.querySelectorAll('.screenshot-thumbnail')) : [];
+                    const imageSet = imagesInSet.map(img => img.dataset.src);
+                    
+                    openModal(e.target.dataset.src, imageSet);
+                });
+            });
+
+            // Event listeners for modal buttons
+            closeModalBtn.addEventListener('click', closeModal);
+            prevBtn.addEventListener('click', () => navigate(-1));
+            nextBtn.addEventListener('click', () => navigate(1));
+
+            // Keyboard support
+            document.addEventListener('keydown', (e) => {
+                if (modal.classList.contains('flex')) {
+                    if (e.key === 'Escape') {
+                        closeModal();
+                    } else if (e.key === 'ArrowLeft') {
+                        navigate(-1);
+                    } else if (e.key === 'ArrowRight') {
+                        navigate(1);
+                    }
+                }
+            });
+
+            // Close modal on click outside image (but not on the image itself or navigation buttons)
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal || e.target === closeModalBtn) { // Allow closing by clicking background or the 'x'
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
